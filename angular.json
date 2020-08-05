@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-netlify-forms"
+    }
+  },
+  "defaultProject": "angular-netlify-forms",
+  "cli": {
+    "analytics": "1c83bbf0-ec60-47ae-bc61-6c82e758c2b4"
+  }
 }
