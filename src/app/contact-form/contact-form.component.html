@@ -1,1 +1,25 @@
-<p>contact-form works!</p>
+<h2>We can't wait to hear from you!</h2>
+
+<div class="form-box">
+  <form name="contact-form" class="contact-form" method="POST"></form>
+  <label> Name: </label>
+  <input type="text" name="name" class="input" />
+  <label> E-mail: </label>
+  <input type="email" name="email" class="input" required />
+  <label> Earliest Start Date: </label>
+  <input type="date" name="start-date" class="start" />
+  <label> Resume (PDF): </label>
+  <input type="file" name="resume" class="resume" accept=".pdf" />
+  <label> Preferred Team: </label>
+  <input type="radio" name="team" id="engineering" class="team" checked />
+  <label for="eng">Engineering</label>
+  <input type="radio" name="team" id="design" class="team" />
+  <label for="design">Design</label>
+  <input type="radio" name="team" id="marketing" class="team" />
+  <label for="marketing">Marketing</label>
+  <input type="radio" name="team" id="people-operations" class="team" />
+  <label for="people-operations">People Operations</label>
+  <label> Additional Message: </label>
+  <textarea name="message" class="textarea" placeholder="message"> </textarea>
+  <button type="submit">Submit</button>
+</div>
